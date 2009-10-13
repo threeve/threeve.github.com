@@ -1,0 +1,7 @@
+auto: true
+lsi: true
+pygments: true
+permalink: /:year/:month/:day/:title
+server: true
+server_port: 3030
+
