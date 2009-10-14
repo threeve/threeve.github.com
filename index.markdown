@@ -26,6 +26,8 @@ Previously
 Elsewhere
 ---------
 
+[threeve.tumblr.com](http://threeve.tumblr.com/)
+
 [twitter.com/threeve](http://twitter.com/threeve)
 
 [github.com/threeve](http://github.com/threeve)
