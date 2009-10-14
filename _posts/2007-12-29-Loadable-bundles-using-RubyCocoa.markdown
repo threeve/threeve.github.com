@@ -1,3 +1,13 @@
+---
+title: Loadable bundles using RubyCocoa
+summary: >
+    With the arrival of Leopard, Apple seems to be making a push to support
+    Cocoa and Mac OS X development in languages other than Objective-C.
+    They ship both the PyObjC and RubyCocoa frameworks, and include several
+    Xcode project templates for creating applications built upon these
+    frameworks.  But what they forgot are the templates for building bundles
+    that use these frameworks.
+---
 With the arrival of Leopard, Apple seems to be making a push to support Cocoa and Mac OS X development in languages other than Objective-C.  They ship both the PyObjC and RubyCocoa frameworks, and include several Xcode project templates for creating applications built upon these frameworks.  But what they forgot are the templates for building bundles that use these frameworks.
 
 # Initializing RubyCocoa
