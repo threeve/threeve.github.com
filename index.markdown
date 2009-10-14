@@ -10,9 +10,6 @@ Recently
 -----------
 {% for post in site.posts limit:2 %}
 {{ post.date | date: "%b %d, %Y" }} - [{{post.title}}]({{ post.url }})
-{% if post.summary %}
-> {{ post.summary | markdown }}
-{% endif %}
 {% endfor %}
 
 
