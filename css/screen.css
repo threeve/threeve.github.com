@@ -1,0 +1,12 @@
+
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.site {
+    margin: 10px auto;
+    width: 38em;
+    position: relative;
+}
+
+header, footer, nav, article { display: block; }
