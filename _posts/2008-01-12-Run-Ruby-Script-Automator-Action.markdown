@@ -3,9 +3,15 @@ title: Run Ruby Script Automator Action
 tags: ['Automator', 'Cocoa', 'MacOSX', 'Ruby']
 layout: post
 summary: >
-    In a [recent blog post][RunPythonScript], schwa blah blah. this is some more
-    blah blah as well.
+    In a [recent blog post][RunPythonScript], [Jonathan Wight][schwa]
+    unveiled a custom action for [Automator][Automator] which can run Python
+    code.  His code uses [PyObjC][PyObjC] to allow the action to take
+    advantage of all the Cocoa goodness that comes with it.  While I am
+    doing more Python work these days, my heart still belongs to
+    [Ruby][Ruby], so I was compelled to respond with a ["Run Ruby
+    Script"][release] action of my own.
 ---
+
 In a [recent blog post][RunPythonScript], [Jonathan Wight][schwa] unveiled a custom action for [Automator][Automator] which can run Python code.  His code uses [PyObjC][PyObjC] to allow the action to take advantage of all the Cocoa goodness that comes with it.  While I am doing more Python work these days, my heart still belongs to [Ruby][Ruby], so I was compelled to respond with a ["Run Ruby Script"][release] action of my own.
 
 <img src="/images/RunRubyScript.png" alt="RunRubyScript.png" border="0" width="300px" align="left" style="margin-right: 8px"/>
