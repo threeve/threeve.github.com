@@ -1,5 +1,6 @@
 ---
 title: Loadable bundles using RubyCocoa
+layout: post
 summary: >
     With the arrival of Leopard, Apple seems to be making a push to support
     Cocoa and Mac OS X development in languages other than Objective-C.
