@@ -48,12 +48,12 @@ That gives me a warm fuzzy.
 
 **Words of warning**: There may be some issues if you have both the Ruby and Python script actions installed.  Specifically, Automator *may* crash if you try to add both actions into the same workflow.  I described the problem in brief in my article about [RubyCocoa bundles][RCBundle], and Bill Bumgarner described it in a bit more detail [on his blog][bbum].  The bug which causes this will hopefully be fixed in 10.5.2, but I may release a custom built version of RubyCocoa in the meantime if there is enough demand for it.
 
-[release]: http://threeve.org/blog/releases/Run%20Ruby%20Script.action.zip
+[release]: http://cloud.github.com/downloads/threeve/RunRubyScriptAction/Run_Ruby_Script-1.0.zip
 [RCBundle]: http://threeve.org/blog/2007/12/loadable-bundles-using-rubycocoa.html
 [bbum]: http://www.friday.com/bbum/2007/11/25/can-ruby-python-an-objective-c-co-exist-in-a-single-application/
 [SB]: http://developer.apple.com/documentation/Cocoa/Conceptual/ScriptingBridgeConcepts/Introduction/chapter_1_section_1.html
 [MIT]: http://www.opensource.org/licenses/mit-license.php
-[RunRubyScriptGIT]: http://code.threeve.org/?p=RunRubyScriptAction.git;a=summary
+[RunRubyScriptGIT]: http://github.com/threeve/RunRubyScriptAction
 [Ruby]: http://www.ruby-lang.org/
 [RubyCocoa]: http://rubycocoa.sourceforge.net/
 [Automator]: http://www.apple.com/macosx/features/300.html#automator
