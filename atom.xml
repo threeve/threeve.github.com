@@ -1,0 +1,33 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Jason Foreman</title>
+ <link rel="self" href="http://threeve.org/atom.xml" />
+ <link rel="alternate" href="http://threeve.org/" />
+ <id>http://threeve.org/</id>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <author>
+   <name>Jason Foreman</name>
+   <email>jason@threeve.org</email>
+ </author>
+ {% for post in site.posts limit:10 %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link rel="alternate" href="http://threeve.org{{ post.url }}" />
+   <published>{{ post.date | date_to_xmlschema }}</published>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://threeve.org{{ post.id }}</id>
+   <summary>{{ post.summary }}</summary>
+   <content type="html" xml:lang="en" xml:base="http://threeve.org/">
+       {{ post.content | xml_escape }}
+   </content>
+   <author>
+     <name>Jason Foreman</name>
+     <uri>http://threeve.org/</uri>
+   </author>
+ </entry>
+ {% endfor %}
+</feed>
+
