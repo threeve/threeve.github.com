@@ -2,7 +2,10 @@
 layout: default
 ---
 
+<article>
 <h2>{{ page.title }}</h2>
+<h4>by {{ site.author }} &mdash; {{ page.date | date: "%b %d, %Y" }}</h4>
 
 {{ content }}
 
+<article>
