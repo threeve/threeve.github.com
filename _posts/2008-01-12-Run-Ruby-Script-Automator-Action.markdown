@@ -2,6 +2,7 @@
 title: Run Ruby Script Automator Action
 tags: ['Automator', 'Cocoa', 'MacOSX', 'Ruby']
 layout: post
+permalink: /blog/2008/01/run-ruby-script-automator-action.html
 summary: >
     In a recent blog post, Jonathan Wight unveiled a custom action for
     Automator which can run Python code.  His code uses PyObjC to allow
