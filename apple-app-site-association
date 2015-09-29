@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "TH8KCQF4BE.com.samsclub.samsapp",
+                "paths": [ "*" ]
+            },
+            {
+                "appID": "DXZ5VF8836.com.samsclub.samsiphone.beta",
+                "paths": [ "*" ]
+            }
+        ]
+    }
+}
